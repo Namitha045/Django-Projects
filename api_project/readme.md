@@ -13,8 +13,11 @@ Packages Used
         •	Django -filter (2.3.0)
 
 Installation:
+
         pip install django
+        
         pip install djangorestframework
+        
         pip install django-filter
 
 API Reference
