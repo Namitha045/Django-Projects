@@ -18,15 +18,17 @@ service_url = 'https://rfy56yfcwk.execute-api.us-west-1.amazonaws.com/bigcorp/em
 url = urllib.request.urlopen(service_url)
 print('Retrieving Data.....!')
 data = url.read().decode()
+office_filename = os.path.join(BASEDIR, 'offices.json')
+department_filename = os.path.join(BASEDIR, 'department.json')
 
 try:
     js = json.loads(data)
 except:
     js = None
 
-with open('D:\\Api_Project\\api_project\\apiapp\\management\\commands\\offices.json') as f:
+with open(office_filename) as f:
     offices = json.load(f)
-with open('D:\\Api_Project\\api_project\\apiapp\\management\\commands\\departments.json') as d:
+with open(department_filename) as d:
     departments = json.load(d)
 
 
