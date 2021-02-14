@@ -1,8 +1,4 @@
-[{
-	"id": 1,
-	"name": "Sales",
-	"superdepartment": null
-}, {
+[ {
 	"id": 2,
 	"name": "Engineering",
 	"superdepartment": null
@@ -15,6 +11,10 @@
 	"name": "Design",
 	"superdepartment": 3
 }, {
+	"id": 1,
+	"name": "Sales",
+	"superdepartment": null
+},{
 	"id": 5,
 	"name": "Inbound Sales",
 	"superdepartment": 1
