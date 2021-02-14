@@ -1,11 +1,11 @@
 [ {
 	"id": 2,
 	"name": "Engineering",
-	"superdepartment": null
+	"superdepartment": 2
 }, {
 	"id": 3,
 	"name": "Product",
-	"superdepartment": null
+	"superdepartment": 3
 }, {
 	"id": 4,
 	"name": "Design",
@@ -13,7 +13,7 @@
 }, {
 	"id": 1,
 	"name": "Sales",
-	"superdepartment": null
+	"superdepartment": 1
 },{
 	"id": 5,
 	"name": "Inbound Sales",
